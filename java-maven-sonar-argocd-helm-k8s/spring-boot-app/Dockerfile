@@ -3,7 +3,7 @@
 FROM adoptopenjdk/openjdk11:alpine-jre
 # Simply the artifact path
 ARG artifact=target/spring-boot-web.jar
-hkv
+hkvk.,,vgnc
 
 WORKDIR /opt/app/
 
