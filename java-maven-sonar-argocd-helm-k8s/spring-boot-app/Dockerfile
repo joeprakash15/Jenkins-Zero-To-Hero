@@ -4,7 +4,7 @@ FROM adoptopenjdk/openjdk11:alpine-jre
 # Simply the artifact path
 ARG artifact=target/spring-boot-web.jar
 
-WORKDIR /opt/app
+WORKDIR /opt/app/viki
 
 COPY ${artifact} app.jar
 
